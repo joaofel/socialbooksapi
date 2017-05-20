@@ -1,5 +1,5 @@
 # socialbooksapi
-Aplicação para aprendizado Webservice Rest
+Aplicação para aprendizado Webservice Rest.
 
 Ferramentas utilizadas:
 
@@ -12,11 +12,11 @@ Ferramentas utilizadas:
 
 Pendencias:
 
-- Gravar no banco de dados fisico.
-- Buscar permissoes do banco de dados.
+- Gravar no banco de dados físico.
+- Buscar permissões do banco de dados.
 
 Funcionamento:
 
-A aplicação deve controlar um sistema de cadastro de livros.
-Deve ser exigido Login e Senha no momento de sua abertura.
-Deve ser validado as Roles para pesquisa e cadastro de livros.
+- A aplicação deve controlar um sistema de cadastro de livros.
+- Deve ser exigido Login e Senha no momento de sua abertura.
+- Deve ser validado as Roles para pesquisa e cadastro de livros.
