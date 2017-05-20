@@ -47,7 +47,7 @@ public class Livro {
 	
 	@ManyToOne
 	@JoinColumn(name = "AUTOR_ID")
-	@NotNull(message = "O campo autor é de preenchimento obrigatório.")
+	//@NotNull(message = "O campo autor é de preenchimento obrigatório.")
 	private Autor autor;
 	
 	public Livro() {

@@ -1,6 +1,7 @@
 package com.joaofeliciano.socialbooks.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -18,6 +19,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 		http.
 			authorizeRequests()
 			.antMatchers("/h2-controle/**").permitAll()
+			.antMatchers(HttpMethod.OPTIONS, "/**").permitAll()
 			.anyRequest().authenticated()
 			.and()
 				.httpBasic()
