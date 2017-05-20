@@ -10,7 +10,7 @@ Ferramentas utilizadas:
 - JAVA 8;
 - H2;
 
-Pendencias:
+Pendências:
 
 - Gravar no banco de dados físico.
 - Buscar permissões do banco de dados.
