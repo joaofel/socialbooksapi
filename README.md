@@ -3,17 +3,17 @@ Aplicação para aprendizado Webservice Rest
 
 Ferramentas utilizadas:
 
-Spring Boot;
-Spring Security;
-Spring Rest;
-Spring JPA;
-JAVA 8;
-H2;
+- Spring Boot;
+- Spring Security;
+- Spring Rest;
+- Spring JPA;
+- JAVA 8;
+- H2;
 
 Pendencias:
 
-Gravar no banco de dados fisico.
-Buscar permissoes do banco de dados.
+- Gravar no banco de dados fisico.
+- Buscar permissoes do banco de dados.
 
 Funcionamento:
 
